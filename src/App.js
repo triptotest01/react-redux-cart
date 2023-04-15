@@ -1,14 +1,14 @@
-import Layout from "./components/Layout/Layout";
-// import Cart from './components/Cart';
+import Cart from './components/Cart/Cart';
+import Layout from './components/Layout/Layout';
+// import Products from './components/Shop/Products';
 
-
-function App(){
-
-  return(
+function App() {
+  return (
     <Layout>
-      {/* <Cart/> */}
+      <Cart />
+      {/* <Products /> */}
     </Layout>
-  )
+  );
 }
 
 export default App;
